@@ -6,6 +6,7 @@ This is the outline for learning my missing/rusty IT skills Chat cooked up for m
 ## Week 1: Git & Windows
 - Git and Linux command recall, GitHub workflow ✅
 - Setup `IT-Lab` repo structure ✅
+- Add an SSH key ✅
 - Windows system admin basics: users, permissions, services
 
 ## Week 2: Linux & Terminal
