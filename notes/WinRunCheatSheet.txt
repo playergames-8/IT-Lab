@@ -1,0 +1,15 @@
+cmd		Command Prompt			Legacy command-line interface
+powershell	PowerShell			Modern, powerful shell for scripting & admin tasks
+taskschd.msc	Task Scheduler			Manage scheduled tasks (e.g. leftover Autodesk junk)
+regedit		Registry Editor			View/edit Windows registry (be careful)
+compmgmt.msc	Computer Management Console	User accounts, disk mgmt, event viewer, etc.
+eventvwr.msc	Event Viewer			Check logs for errors, crashes, warnings
+msconfig	System Configuration		Safe boot, disable services/startup temporarily
+resmon		Resource Monitor		Live resource usage (CPU/Disk/Network) by app
+perfmon /rel	Reliability Monitor		Timeline of crashes, failed updates, etc.
+cleanmgr	Disk Cleanup			Delete temp files, logs, outdated Windows updates
+control		Control Panel			Old-school access to system settings
+services.msc	Services Manager		Manage background services, set to manual/disable
+lusrmgr.msc	Local Users and Groups		Manage users & groups (GUI version)
+netplwiz	User Accounts (advanced)	Alternate user mgmt GUI, auto-login settings
+gpedit.msc	Group Policy Editor		Control lockout rules, system settings (advanced)
