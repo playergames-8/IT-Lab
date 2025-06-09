@@ -1,5 +1,0 @@
-- recaped Git/GitHub
-- learned some Windows management tools
-- did some trouble shooting with performance tools
-- run through some test cases
-- am now writing this for final exam
