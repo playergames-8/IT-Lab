@@ -8,7 +8,7 @@
 	- Other than making it a pain in the ass for the admin to manage acces settings and make it harder to notice issues, in IT in general you wan't to always maximally minimise acces to all data. Makes it safer, easier to audit and less messy.
 
 4.What’s the difference between NTFS permissions and share permissions?
-	- idk
+	- NTFS are local restrictions and share are remote acces
 
 5.Name 3 signs of poor system performance and where you’d investigate them.
 	- slow startup
@@ -29,4 +29,5 @@ You gotta use the windows tools to search for startup bloat and see what's putti
 	- So does it fail or did they forget theyre password? That's unclear. If it's the first, check if the password expired or user got deleted. If second, reset their password on admin acc.
 
 10.What happens if the only admin account is disabled or deleted?
-	- Then you gotta change permisions through bios I think. Or use one of system made invisible accounts. idk
+	- If youre lucky there's a hidden admin accoun you can acces through bios, if you're not you can try to break in with some dedicated tools, try to recover some of the data with others or worst case just straight up format the partition/disk with the system and do a clean install
+

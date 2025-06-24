@@ -1,0 +1,66 @@
+Linux CLI chat sheet:
+
+M- means Alt + whatever
+^ means Ctrl + whatever
+
+ls                         # List files
+ls -la                     # Long list incl. hidden files
+cd <dir>                   # Change directory
+pwd                        # Print working directory
+mkdir <dir>                # Create directory
+rm <file>                  # Delete file
+rm -r <dir>                # Delete directory recursively
+cp <src> <dest>            # Copy files/directories
+mv <src> <dest>            # Move/rename files
+touch <file>               # Create empty file
+
+cat <file>                 # Print file content
+less <file>                # Scrollable view
+head -n 10 <file>          # First 10 lines
+tail -n 10 <file>          # Last 10 lines
+nano <file>                # Edit with nano
+vim <file>                 # Edit with Vim
+
+grep "text" <file>         # Search text in file
+grep -r "text" <dir>       # Recursive grep
+find . -name "*.txt"       # Find by filename
+locate <file>   
+
+chmod +x <file>            # Make executable
+chmod 755 <file>           # Set permissions
+chown user:group <file>    # Change ownership
+
+uname -a                   # Kernel info
+top                        # Running processes
+htop                       # Better process viewer
+df -h                      # Disk usage
+du -sh <dir>               # Size of directory
+free -h                    # Memory usage
+
+ps aux                     # All processes
+kill <pid>                 # Kill by PID
+killall <name>             # Kill by name
+&                          # Run in background
+fg                         # Bring to foreground
+
+ping <host>                # Test connection
+curl <url>                 # HTTP request
+wget <url>                 # Download file
+ifconfig / ip addr         # Show IP addresses
+netstat -tuln              # Ports in use
+ssh user@host              # Connect via SSH
+scp file user@host:/path   # Copy over SSH
+
+tar -cvf file.tar dir/     # Create tar archive
+tar -xvf file.tar          # Extract tar archive
+tar -czvf file.tar.gz dir/ # Create compressed archive
+tar -xzvf file.tar.gz      # Extract compressed archive
+gzip <file>                # Compress file
+gunzip <file.gz>           # Decompress file
+	
+man <cmd>                  # Show manual
+history                    # Show command history
+alias ll="ls -la"          # Create alias
+whoami                     # Current user
+date                       # Show date/time
+uptime                     # System uptime

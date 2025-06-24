@@ -1,4 +1,4 @@
-# IT Self-Learning Roadmap
+IT Self-Learning Roadmap
 
 This is the outline for learning my missing/rusty IT skills Chat cooked up for me. I'll update it as I go. It says 10 weeks but if I'm really bored or really busy, milage may vary.
 ---
@@ -10,13 +10,17 @@ This is the outline for learning my missing/rusty IT skills Chat cooked up for m
 - Windows local accounts management ✅
 - User permissions and acces control ✅
 - Tools and troubleshooting ✅
-- Test cases
-- Week 1 exam
+- Test cases ✅
+- Week 1 exam ✅
 
 ## Week 2: Linux & Terminal
-- Bash basics, filesystems
-- Permissions, users, services
-- Installing packages and using system logs
+- Linux CLI Fundamentals ✅
+- Processes & System Monitoring ✅
+- Scheduling Tasks ✅
+- Package Management (APT-based systems) 
+- Disk & Filesystem Management 
+- Test cases 
+- Week 2 exam
 
 ## Week 3: Scripting (PowerShell & Bash)
 - Writing simple scripts for automation
